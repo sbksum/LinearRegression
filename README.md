@@ -1,5 +1,5 @@
 # Linear Regression Bike Sharing - Case Study  
-> Using EDA to find out how consumer attributes and loan attributes influence the tendency of default.
+> This project aims to build a multiple linear regression model for the prediction of demand for shared bikes. 
 
 
 
@@ -14,6 +14,8 @@
 ## General Information
 - This project aims to build a multiple linear regression model for the prediction of demand for shared bikes. 
 
+# Problem Statement
+
 #### A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 #### A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
 
@@ -24,20 +26,21 @@
 - Which variables are significant in predicting the demand for shared bikes.
 - How well those variables describe the bike demands
 
-Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
+#### Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 
 
 
 ## Conclusions
 
-- Count of total rental bikes (count) in year 2019 is 23.10% higher than that in 2018.
-- Count is 7.5% lower in Spring season.
-- Count is 8% higher in Winter season.
-- Count is 23.7 % lower when there is light snow or rain.
-- Count is 5.2% lower when the weather is misty and cloudy.
-- Unit increase in temperature increases count by 49.8%
-- Unit increase in windspeed decreases count by 18.43%
-- Count is 14% lower during increased humidity.
+- Count of total rental bikes (count) in year 2019 is 23.43% higher than that in 2018.
+- Unit increase in temperature increases count by 48%
+- Count is 9.7% higher in Winter season.
+- Count is 29.02 % lower when there is light snow or rain.
+- Count is 8.1 % lower when the weather is misty and cloudy.
+- Unit increase in windspeed decreases count by 15%
+- Count is 5.5% more on working day.
+- Count is 5.5% lower in Spring season.
+
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
